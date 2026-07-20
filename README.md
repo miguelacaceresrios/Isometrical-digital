@@ -1,2 +1,1 @@
-# isometrical-page
-isometrical page
+# isometrical docs 
