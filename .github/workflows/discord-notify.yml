@@ -14,4 +14,4 @@ jobs:
           -d '{
             "content": "🔔 **Nuevo push en el repositorio**\n📁 Repo: ${{ github.repository }}\n👤 Autor: ${{ github.actor }}\n💬 Mensaje: ${{ github.event.head_commit.message }}\n🔗 Ver cambios: ${{ github.event.head_commit.url }}"
           }' \
-          ${{ secrets.DISCORD_WEBHOOK_ISO_WEB }}
+          ${{ secrets.DISCORD_WEBHOOK }}
